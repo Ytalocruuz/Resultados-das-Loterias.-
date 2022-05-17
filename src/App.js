@@ -4,7 +4,7 @@ import React from "react";
 const App = () => {
 
   return (
-    Oi
+    <div>Oi</div>
   );
 }
 
