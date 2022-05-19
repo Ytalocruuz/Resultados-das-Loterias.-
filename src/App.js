@@ -1,18 +1,20 @@
 import React from "react";
-import { Container } from "./styled";
+import { ContainerEsquerta, ContainerPrincipal, ContainerDireta } from "./styled";
+import Global  from "./styles/Global";
 
 
 const App = () => {
 
   return (
-    <div> 
-      <Container>
+    <ContainerPrincipal> 
+      <ContainerDireta>
         Informações
-      </Container>
-      <Container>
+      </ContainerDireta>
+      <ContainerEsquerta>
         Resultado
-      </Container>
-    </div>
+      </ContainerEsquerta>
+      <Global />
+    </ContainerPrincipal>
   );
 }
 
